@@ -1,4 +1,4 @@
-module ivy
+module wandthestar
 
 go 1.20
 

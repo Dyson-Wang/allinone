@@ -2,6 +2,7 @@ const fs = require('fs');
 
 let dir = fs.readdirSync('../content/drafts/.')
 
+// 转换drafts目录下所有md到posts下
 for (let i = 0; i < dir.length; i++) {
     const ele = dir[i];
     let c = fs.readFileSync('../content/drafts/' + ele, 'utf8')
